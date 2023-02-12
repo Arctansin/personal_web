@@ -1,0 +1,271 @@
+/**********
+em = 16 px
+rem root em
+autoscalling em
+not universally used because user can zoom in and out
+*/
+
+
+/* Navbar */
+.nav-item{
+  padding-right: 1rem;
+  font-size: 1rem;
+}
+
+/* First session */
+
+.portrait{
+  width: 10%;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top_div{
+  height:35rem;
+  width: 100%;
+  background-color:#fbfbfd;
+  padding: 10px;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Handlee', cursive;
+  margin:0;
+  padding-top: 5%;
+}
+
+
+.middle_div{
+  height:100%;
+  width: 100%;
+  margin:0;
+  padding: 20px 80px;
+}
+
+
+.scorecard_table{
+  width: 30rem;
+
+}
+
+.bottom_div{
+  height:900px;
+  width: 100%;
+  margin:0;
+  padding: 20px 10%;
+  background:#fbfbfd;
+
+}
+
+.last_div{
+  height:100%;
+  width: 100%;
+  background-color:#DEF5E5;
+  margin:0;
+  padding: 20px
+
+}
+
+
+
+#carouselExampleControls{
+
+  height: 40rem;
+  text-align: center;
+
+
+}
+
+
+body{
+  margin:0;
+  text-align: center;
+  font-size: 1.5625em;
+}
+
+
+
+h4{
+  /*width: 500px;*/
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.banter_ul{
+  margin-top: 5px;
+  text-align: left;
+}
+.banter_li{
+  width: 100px;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none !important;
+  color: black;
+
+}
+
+hr{
+  border-style: none;
+  border-top: dotted #A4BE7B;
+  width:8%;
+}
+
+/* bottom link*/
+
+
+.box, .flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.social-links {
+	display: flex;
+}
+
+.social-btn {
+	cursor: pointer;
+	height: 50px;
+	width: 50px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #333;
+	border-radius: 10px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+	background: white;
+	margin: 5px;
+	transition: 1s;
+}
+
+.social-btn span {
+	width: 0px;
+	overflow: hidden;
+	transition: 1s;
+	text-align: center;
+}
+
+.social-btn:hover {
+	width: 150px;
+	border-radius: 5px;
+}
+
+.social-btn:hover span {
+	padding: 2px;
+	width: max-content;
+}
+
+#twitter svg {
+	fill: #1da1f2;
+}
+
+#linkedin svg {
+	fill: #0e76a8;
+}
+
+#github {
+	fill: #333;
+}
+
+
+/* insert icons from bootstrap
+change color*/
+#features{
+  padding:0% 15% 5%;
+  text-align: center;
+}
+
+svg{
+  color:#F99417;
+}
+
+svg:hover{
+  color:#B5F1CC;
+}
+
+.skills_description{
+  padding-top: 6px;
+}
+
+.social_media{
+  font-size: 17px;
+}
+
+svg.bi-envelope{
+  color: #698269;
+}
+
+span.social_media{
+  color: #03001C;
+}
+
+/* logo work */
+.work_logo{
+  width: 50%;
+   opacity: 0.7;
+}
+
+
+.carousel-item{
+  padding: 10%;
+  text-align: center;
+}
+
+/* project */
+.project_demo{
+    width: 40%;
+}
+
+
+.Education_img{
+  width: 30%;
+  opacity: 0.5;
+}
+
+.education{
+  display: flex;
+}
+
+.work_edu_nav{
+  height: 50rem;
+  background: #fbfbfd;
+}
+
+.nav-pills {
+    --bs-nav-pills-border-radius: 0.375rem;
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #a1a1a1;
+    --bs-nav-link-color: #000000;
+    text-align: center;
+}
+
+#pills-tab{
+  text-align: center;
+  padding-left: 20%;
+}
+
+.row_path{
+  padding-bottom: 5%;
+  padding-left: 15%;
+}
+
+.mytag{
+  color:#0F6292;
+  font-family:'Handlee', cursive;
+  font-size: 120%;
+}
+
+.timeperiod{
+    font-size: 70%;
+}
